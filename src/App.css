@@ -69,7 +69,7 @@ html {
 }
 
 body, button, input, textarea {
-  font-family: var(--body-font);
+  font-family: 'Poppins', sans-serif;
   font-size: var(--normal-font-size);
 }
 
@@ -156,4 +156,27 @@ img{
 .button--flex { 
   display: inline-flex;
   align-items: center;
+}
+
+/* ============= MEDIA =============  */
+@media screen and (max-width:992px){
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:576px){
+  
+}
+
+@media screen and (max-width:350px){
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
