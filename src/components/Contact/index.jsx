@@ -25,7 +25,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="content__title">Me mande uma mensagem! :D</h3>
+          <h3 className="contact__title">Me mande uma mensagem! :D</h3>
           <div className="contact__info">
             <div className="contact__card">
               <i className="uil uil-envelope-alt contact__card-icon"></i>
@@ -54,7 +54,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3>Write me a message</h3>
+          <h3 className="contact__title">Write me a message</h3>
 
           <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <div className="contact__form-div">
