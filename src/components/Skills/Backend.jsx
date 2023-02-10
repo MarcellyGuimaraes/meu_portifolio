@@ -11,16 +11,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">PHP</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="uil uil-check-circle"></i>
-
-            <div>
-              <h3 className="skills__name">Node.js</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Básico</span>
             </div>
           </div>
 
@@ -29,7 +20,16 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">Python</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Básico</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-check-circle"></i>
+
+            <div>
+              <h3 className="skills__name">Laravel</h3>
+              <span className="skills__level">Básico</span>
             </div>
           </div>
         </div>
@@ -39,26 +39,26 @@ const Backend = () => {
             <i class="uil uil-check-circle"></i>
 
             <div>
-              <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="uil uil-check-circle"></i>
-
-            <div>
-              <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="uil uil-check-circle"></i>
-
-            <div>
               <h3 className="skills__name">Django</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Básico</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-check-circle"></i>
+
+            <div>
+              <h3 className="skills__name">MySQL</h3>
+              <span className="skills__level">Básico</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="uil uil-check-circle"></i>
+
+            <div>
+              <h3 className="skills__name">Docker</h3>
+              <span className="skills__level">Básico</span>
             </div>
           </div>
         </div>
