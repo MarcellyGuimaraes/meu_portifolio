@@ -17,12 +17,16 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Desenvolvedora frontend, eu crio páginas principalmente utilizando o
-            React.js e Tailwind
+            Sou uma desenvolvedora web apaixonada pelo frontend, com habilidades
+            em JavaScript, CSS, HTML, PHP, Python, React, Next e Laravel. Com um
+            olho apurado para design e experiência do usuário, trabalho para
+            criar interfaces intuitivas e acessíveis para a web. Além disso, sou
+            apaixonada por aprender e estou sempre em busca de novos desafios e
+            oportunidades para crescer como desenvolvedora.
           </p>
 
           <a download="" href={Curriculo} className="button button--flex">
-            Baixe meu currículo <i className="uil uil-file-download"></i>
+            <i className="uil uil-file-download"></i> Baixe meu currículo
           </a>
         </div>
       </div>
